@@ -11,7 +11,8 @@ main() {
 	for(i=0; i<=10000; i++) {
 		if(result(i) <= 10000)
 			check[result(i)] = 1;
-	}
+	} // https://www.acmicpc.net/board/view/89704
+
 	// 결과 출력 
 	for(i=0; i<=10000; i++) {
 		if(check[i] != 1) printf("%d\n",i);

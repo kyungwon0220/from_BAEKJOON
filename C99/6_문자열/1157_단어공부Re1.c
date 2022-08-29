@@ -11,7 +11,7 @@ main() {
 	_Ssize = strlen(S);
 	//printf("%d\n",_Ssize); // debug
     
-	for(i=0; i<_Ssize; i++) {
+	for(i=0; i<_Ssize; i++) { // ' _Ssize ' 변수없이 strlen 함수 사용시 ' 시간 초과 ' 오류 발생
 		if(S[i]>= 'A' && S[i] <='Z')
 			tmp[S[i]-'A']++;
 		if(S[i]>= 'a' && S[i] <='z')
