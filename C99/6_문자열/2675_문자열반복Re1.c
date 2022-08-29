@@ -6,11 +6,11 @@ main() {
 	int R, _T=1, i, j;
 	char S[21], P[161];
 	
-	scanf("%d",&_T); // 총 테스트 케이스의 개수
+	scanf("%d",&_T);
 	
 	while( _T != 0) {
 		
-		scanf("%d%s",&R, &S); // 각 테스트 케이스의 반복 횟수와 문자열
+		scanf("%d%s",&R, &S);
 		//printf("%d\n",_T); //debug
 		
 		for(i=1; i<=strlen(S); i++) {
